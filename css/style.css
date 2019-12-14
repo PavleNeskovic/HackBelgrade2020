@@ -313,7 +313,6 @@ img.pull-right {
   color: #3b1d82;
   position: relative;
   padding-bottom: 30px;
-  margin-bottom: 85px;
   text-align: center; }
   .section-title:after,
   .column-title:after {
@@ -1207,7 +1206,7 @@ img.pull-right {
 .ts-experiences {
   padding: 0;
   overflow: hidden;
-  background: #3b1d82; }
+  background: #1d2b62; }
   .ts-experiences .exp-img {
     min-height: 480px;
     background-repeat: no-repeat;
@@ -1215,7 +1214,7 @@ img.pull-right {
     background-position: center center; }
 
 .ts-exp-wrap {
-  background: #1c1a4f;
+  background: #1d2b62;
   min-height: 480px;
   position: relative; }
   .ts-exp-wrap:before {
@@ -1224,20 +1223,14 @@ img.pull-right {
     top: 0;
     width: 100%;
     height: 100%;
-    content: '';
-    background: url(../images/shap/cta_bg.png) no-repeat 100%/cover; }
+    content: ''; }
   .ts-exp-wrap:after {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    content: '';
-    background-image: -webkit-gradient(linear, left top, right top, from(#321575), color-stop(51%, #8d0b93), color-stop(100%, #ff0066), to(#ff057c));
-    background-image: -webkit-linear-gradient(left, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
-    background-image: -o-linear-gradient(left, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
-    background-image: linear-gradient(90deg, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
-    opacity: 0.302; }
+    content: '';}
   .ts-exp-wrap .ts-exp-content {
     max-width: 560px;
     padding: 100px 80px;
@@ -2232,7 +2225,7 @@ img.pull-right {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-top: 170px; }
+  padding-top: 100px; }
 
 .ts-single-outcome {
   text-align: center;
@@ -2397,7 +2390,6 @@ img.pull-right {
   display: block; }
 
 .ts-sponsors .sponsors-logo {
-  margin: 60px 0;
   min-height: 125px;
   padding: 0 30px;
   display: -webkit-box;
@@ -2767,7 +2759,7 @@ blockquote:before {
 
 /* Outcome */
 .ts-event-outcome {
-  background: #1c1a4f;
+  background: #1d2b62;
   min-height: 480px;
   position: relative; }
   .ts-event-outcome:before {
@@ -2776,18 +2768,13 @@ blockquote:before {
     top: 0;
     width: 100%;
     height: 100%;
-    content: '';
-    background: url(../images/banner/leanr_bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: 50% 50%; }
+    content: '';}
   .ts-event-outcome .outcome-content {
     padding: 0px !important; }
     .ts-event-outcome .outcome-content .column-title {
-      font-style: italic;
-      color: #e7015e;
-      font-weight: 300;
+      font-style: none;
+      color: #fff;
+      font-weight: 700;
       margin-bottom: 8px;
       padding-bottom: 15px; }
       .ts-event-outcome .outcome-content .column-title span {
