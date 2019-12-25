@@ -45,24 +45,24 @@
     <!-- CSS
           ================================================== -->
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css">
 
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
     <!-- Animation -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/animate.css">
     <!-- magnific -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/magnific-popup.css">
     <!-- carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.carousel.min.css">
     <!-- isotop -->
-    <link rel="stylesheet" href="css/isotop.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/isotop.css">
     <!-- ico fonts -->
-    <link rel="stylesheet" href="css/xsIcon.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/xsIcon.css">
     <!-- Template styles-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
     <!-- Responsive styles-->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/responsive.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -82,7 +82,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <!-- logo-->
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/logos/logo.png" alt="">
+                    <img src="{{ .Site.BaseURL }}images/logos/logo.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,19 +91,19 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
                         <li class="dropdown nav-item active">
-                           <a href="#">Home</a>
+                           <a href="{{ .Site.BaseURL }}#">Home</a>
                         </li>
                         <li class="dropdown nav-item">
-                           <a href="#section-outcomes">Event Outcomes</a>
+                           <a href="{{ .Site.BaseURL }}#section-outcomes">Event Outcomes</a>
                         </li>
                         <li class="dropdown nav-item">
-                            <a href="#section-faq">FAQ</a>
+                            <a href="{{ .Site.BaseURL }}#section-faq">FAQ</a>
                          </li>
                         <li class="dropdown nav-item">
-                           <a href="#section-sponsors">Become a Sponsor</a>
+                           <a href="{{ .Site.BaseURL }}#section-sponsors">Become a Sponsor</a>
                         </li>
                         <li class="dropdown nav-item">
-                            <a href="/code-of-conduct.html">Code of Conduct</a>
+                            <a href="{{ .Site.BaseURL }}/code-of-conduct.html">Code of Conduct</a>
                          </li>
                         <li class="header-ticket nav-item">
                             <a class="ticket-btn btn" href="https://form.jotformeu.com/93125641243350"> Register
