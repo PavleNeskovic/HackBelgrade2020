@@ -1,7 +1,9 @@
 ---
 title: "Hello Hugo!"
 description: "Saying 'Hello' from Hugo"
+author: "John Wayne"
 date: "2014-09-01"
+type: "post"
 categories:
   - "example"
   - "hello"
@@ -44,6 +46,7 @@ This is the meta data for this post. It is located at the top of the `content/po
 ---
 title: "Hello Hugo!"
 description: "Saying 'Hello' from Hugo"
+author: "John Wayne"
 date: "2014-09-01"
 categories:
   - "example"
