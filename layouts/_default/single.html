@@ -1,5 +1,67 @@
 {{ partial "header.html" . }}
 
-{{ .Content }}
+<div id="page-banner-area" class="page-banner-area" style="background-image:url(https://hackbelgrade.com/images/hero_area/banner_bg.jpg)">
+    <!-- Subpage title start -->
+    <div class="page-banner-title">
+       <div class="text-center">
+          <h2>{{ .Title }}</h2>
+          <ol class="breadcrumb">
+             <li>
+                <a href="/">HackBelgrade /</a>
+             </li>
+             <li>
+                <a href="/blog">Blog /</a>
+             </li>
+             <li>
+                {{ .Title }}
+             </li>
+          </ol>
+       </div>
+    </div><!-- Subpage title end -->
+ </div><!-- Page Banner end -->
+
+ <section class="main-container pb-0" id="main-container" style="background-color: white;">
+    <div class="container">
+           <div class="row">
+               <div class="col-lg-10 mx-auto">
+                   <div class="blog-details">
+                       <div class="entry-header">
+                           <h2 class="entry-title text-center">
+                               <a href="#">{{ .Description }}</a>
+                           </h2>
+                       </div><!-- header end -->
+                       <div class="post-meta text-center">
+                           <span class="post-author"><a href="#"> By {{ .Params.author }}</a></span>
+                           <span class="post-meta-date">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span> 
+                       </div>
+                       <div class="post-media post-image text-center">
+                           <img class="img-fluid" src="{{ .Params.cover }}" alt="">
+                       </div>
+                       <div class="post-content post-single">
+                           <div class="post-body clearfix">
+                               <div class="entry-content">
+                                {{ .Content }}
+                                </div>
+                               <!-- entry content end-->
+                               <div class="post-footer clearfix">
+                                   <div class="share-items float-right">
+                                       <span>Share : </span>
+                                       <ul class="post-social-icons unstyled">
+                                               <li><a href="http://www.facebook.com/sharer.php?u={{ .Permalink | absURL }}"><i class="fa fa-facebook"></i></a></li>
+                                               <li><a href="https://twitter.com/share?url={{ .Permalink | absURL }}"><i class="fa fa-twitter"></i></a></li>
+                                               <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink | absURL }}"><i class="fa fa-linkedin"></i></a></li>
+                                       </ul>
+                                   </div>
+                                   <!-- Share items end-->
+                               </div>
+                               <!-- Post footer end-->
+                           </div>
+                           <!-- post-body end-->
+                       </div>
+                       <!-- Post content end-->
+                   </div>
+               </div>
+           </div>
+    </div>
 
 {{ partial "footer.html" . }}
