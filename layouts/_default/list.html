@@ -1,0 +1,37 @@
+{{ partial "header.html" . }}
+<div id="page-banner-area" class="page-banner-area" style="background-image:url(https://hackbelgrade.com/images/hero_area/banner_bg.jpg)">
+  <!-- Subpage title start -->
+  <div class="page-banner-title">
+     <div class="text-center">
+        <h2>Blog</h2>
+        <ol class="breadcrumb">
+              <li>
+                 <a href="/">HackBelgrade /</a>
+              </li>
+              <li>
+                    Blog
+              </li>
+           </ol>
+     </div>
+  </div><!-- Subpage title end -->
+</div><!-- Page Banner end -->
+
+<section id="main-container" class="main-container" style="background-color: white;">
+  <div class="container">
+    {{ range (.Paginator 3).Pages }}
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-12 mx-auto">
+        {{- partial "summary.html" . -}}
+      </div>
+    </div>
+    {{ end }}
+  </div><!-- Container end -->
+  <div class="pages mt-60">
+    <nav aria-label="Page navigation ">
+       <ul class="pagination mx-auto">
+        {{- template "_internal/pagination.html" . -}}
+       </ul>
+    </nav>
+ </div>
+</section><!-- Main container end -->
+  {{ partial "footer.html" . }}

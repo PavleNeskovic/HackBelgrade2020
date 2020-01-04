@@ -2,15 +2,9 @@
 title: "Hello Hugo!"
 description: "Saying 'Hello' from Hugo"
 author: "John Wayne"
-date: "2014-09-01"
+cover: "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+date: "2020-01-01"
 type: "post"
-categories:
-  - "example"
-  - "hello"
-tags:
-  - "example"
-  - "hugo"
-  - "blog"
 ---
 
 Hello from Hugo! If you're reading this in your browser, good job! The file `content/post/hello-hugo.md` has been

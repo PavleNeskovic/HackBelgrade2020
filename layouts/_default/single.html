@@ -7,7 +7,10 @@
           <h2>{{ .Title }}</h2>
           <ol class="breadcrumb">
              <li>
-                <a href="{{ .Site.BaseURL }}#">HackBelgrade /</a>
+                <a href="/">HackBelgrade /</a>
+             </li>
+             <li>
+                <a href="/blog">Blog /</a>
              </li>
              <li>
                 {{ .Title }}
@@ -32,7 +35,7 @@
                            <span class="post-meta-date">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span> 
                        </div>
                        <div class="post-media post-image text-center">
-                           <img class="img-fluid" src="images/blog/blog-details.jpg" alt="">
+                           <img class="img-fluid" src="{{ .Params.cover }}" alt="">
                        </div>
                        <div class="post-content post-single">
                            <div class="post-body clearfix">
@@ -41,16 +44,12 @@
                                 </div>
                                <!-- entry content end-->
                                <div class="post-footer clearfix">
-                                   <div class="post-tags float-left"><span>Tags: </span><a href="#">Optimize</a><a		href="#">Conference</a><a href="#">Global</a></div>
-                                   <!-- Post tags end-->
                                    <div class="share-items float-right">
                                        <span>Share : </span>
                                        <ul class="post-social-icons unstyled">
-                                               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                               <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                               <li><a href="http://www.facebook.com/sharer.php?u={{ .Permalink | absURL }}"><i class="fa fa-facebook"></i></a></li>
+                                               <li><a href="https://twitter.com/share?url={{ .Permalink | absURL }}"><i class="fa fa-twitter"></i></a></li>
+                                               <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink | absURL }}"><i class="fa fa-linkedin"></i></a></li>
                                        </ul>
                                    </div>
                                    <!-- Share items end-->
@@ -58,28 +57,6 @@
                                <!-- Post footer end-->
                            </div>
                            <!-- post-body end-->
-                           <div class="author-box solid-bg mrb-40">
-                               <div class="author-img float-left">
-                                   <img src="{{ .Site.BaseURL }}images/avatar/author.jpg" alt="">
-                               </div>
-                               <div class="author-info">
-                                   <div class="post-social-icons float-right unstyled"><a href="#"><i class="fa fa-twitter"></i></a><a 	href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                                   <h3>Jonhy Rick</h3>
-                                       <p class="author-url"><a href="#">www.finances.com</a></p>
-                                       <p>There’s such a thing as “too much information”, especially for the companies scaling out their sales operations. That’s why Attentive was born in 2015.</p>
-                               </div>
-                           </div>
-                               <!-- Author box end-->
-                           <nav class="post-navigation clearfix mrtb-40">
-                               <div class="post-previous">
-                                   <a href="#">
-                                       <h3>Cloud Hosting growing faster todays</h3><span><i class="fa fa-long-arrow-left"></i>Previous Post</span></a>
-                               </div>
-                               <div class="post-next">
-                                   <a href="#">
-                                       <h3>Cloud Hosting growing faster todays</h3><span>Next Post <i class="fa fa-long-arrow-right"></i></span></a>
-                               </div>
-                           </nav>
                        </div>
                        <!-- Post content end-->
                    </div>
