@@ -174,7 +174,7 @@ Robotics is mostly focused on engineering domains on how to create operative mac
 
 ### Military
 
--   ![](https://i0.wp.com/www.nvukobrat.com/wp-content/uploads/2020/01/boston-1-2.gif?w=1170&ssl=1)
+![](https://i0.wp.com/www.nvukobrat.com/wp-content/uploads/2020/01/boston-1-2.gif?w=1170&ssl=1)
     
 
 Robotics is used in many industries mainly for production purposes (car industry, food industry, etc). Emerging industry of our age by usage of the robotics systems is the military. By using robotics there will be no need in sending human soldiers into the war. Instead, automated machines could be remotely controlled, or be completely autonomous. One of the most popular robotic manufacturer today is Boston Dynamics.
