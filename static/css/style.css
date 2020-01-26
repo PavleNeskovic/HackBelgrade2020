@@ -1785,6 +1785,12 @@ img.pull-right {
   .post .post-body .entry-content p {
     line-height: 26px;
     color: #888888; }
+  .post-body .entry-content img{
+    width: 100%; }
+  .post-body .entry-content ul{
+    color: #888888; 
+    margin-left: 20px;
+    margin-bottom: 20px;}
 
 .post:hover .post-body {
   -webkit-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
