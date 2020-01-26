@@ -70,7 +70,7 @@ From here, there are so many things you can do. Here are the couple of things th
 
 **Interact and analyze social media** by integrating with their APIs or SDKs. [LinkedIn](https://www.linkedin.com/developers/), [Instagram](https://developers.facebook.com/products/instagram/), [Facebook](https://developers.facebook.com/), [Twitter](https://developer.twitter.com/), [YouTube](https://developers.google.com/youtube) can give you access to their content. Have in mind that social media is very rigorous when it comes to misusing their services. You may need to go through a review process of your application in order to use their web services.
 
-**Have maps** in your app. Most commonly used maps are Google Maps, but there are other alternatives like [Here](https://developer.here.com/), [MapBox](https://www.mapbox.com/) or [Bing Maps](https://www.microsoft.com/en-us/maps/choose-your-bing-maps-api).
+**Have maps** in your app. Most commonly used maps are [Google Maps](https://developers.google.com/maps/documentation), but there are other alternatives like [Here](https://developer.here.com/), [MapBox](https://www.mapbox.com/) or [Bing Maps](https://www.microsoft.com/en-us/maps/choose-your-bing-maps-api).
 
   
 
