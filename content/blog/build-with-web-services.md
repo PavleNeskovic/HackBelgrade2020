@@ -14,15 +14,15 @@ To start, let me explain what was there before the cloud.
 
 ![](https://cdn-images-1.medium.com/max/800/1*vV8GE07MUkaev4GaRwGS0w.jpeg)
 
-In the early 2000s, everyone had to own and maintain physical data centers and servers. That was fine, but it had its problems. If you had a few servers, when the crowd rushed to your website, it would break. Having too many was expensive and a waste of money if no one is using that capacity. You have to hire a team that is capable to maintain, manage and repair servers. Often, other teams were dedicated to maintaining databases and networks. Also, you wanted to make sure the whole thing is secure, which also costs you a lot of money. Wouldn’t it be great if we could have someone else manage all that and let us worry about the product we are trying to deliver?
+In the early 2000s, everyone had to own and maintain physical data centers and servers. That was fine, but it had its problems. If you had a few servers, when the crowd rushed to your website, it would break. Having too many was expensive and a waste of money if no one is using that capacity. You have to hire a team that is capable to install, maintain, manage and repair servers. Often, other teams were dedicated to maintaining databases and networks. Also, you wanted to make sure the whole thing is secure, which also costs you a lot of money. Wouldn’t it be great if we could have someone else manage all that and let us worry about the product we are trying to deliver?
 
-_To The Rescue — Cloud Computing_
+### To The Rescue — Cloud Computing
 
 In 2006, AWS, a subsidiary of Amazon, launched its compute and storage web services, which created the opportunity to transfer all that hassle to them. Back then, most people weren’t comfortable giving their code and data to someone. That idea became more acceptable later, as more and more people started experimenting with it and realizing that it is cheaper and easier to rent someone else’s infrastructure, instead of maintaining it on-premise. Google, Microsoft, and IBM took a year or two, but they responded and created their cloud computing services. The shift started happening. More services appeared. The game was on.
 
 ## So, What’s In It For Me
 
-Much has changed since the early 2000s. Cloud service providers are looking to satisfy every possible customer need. You can manage the infrastructure yourself (Infrastructure-as-a-Service, IaaS), or you can write code without worrying about underlying infrastructure (Platform-as-a-Service, Paas), or just use the services that are complete and do the job for you (Software-as-a-Service, Saas). Here is a [big aaS list of as-a-Service offerings](https://www.auvik.com/franklymsp/blog/aas-as-a-service-list/) to give you an idea of what are the possibilities. In the cloud, the prices grow only when you grow. As long as you don’t have a ton of requests, customers, gigabytes of data, most of the services are free. The servers can scale, incoming requests will never overload your servers. And you don’t have to have a bunch of teams to solve your infrastructure problems. That means that you can build complex apps all by yourself or as a part of one small team. Cheap, easy and fast. Let’s see how.
+Much has changed since the early 2000s. Cloud service providers are looking to satisfy every possible customer need. You can manage the infrastructure yourself (Infrastructure-as-a-Service, IaaS), or you can write code without worrying about underlying infrastructure (Platform-as-a-Service, Paas), or just use the services that are complete and do the job for you (Software-as-a-Service, Saas). Here is a [big aaS list of as-a-Service offerings](https://www.auvik.com/franklymsp/blog/aas-as-a-service-list/) to give you an idea of what are the possibilities. In the cloud, the prices grow only when you grow. Most of the services are cheap, if not free. The servers can scale, incoming requests will never overload your servers. And you don’t have to have a bunch of teams to solve your infrastructure problems. That means that you can build complex apps all by yourself or as a part of one small team. Cheap, easy and fast. Let’s see how.
 
 ## What’s in store
 
@@ -54,19 +54,15 @@ From here, there are so many things you can do. Here are the couple of things th
 
 **Artificial Intelligence/Machine Learning** offers us so many cool things that we could do. Here is the list of some services that you will probably find by searching through [Azure](https://azure.microsoft.com/en-us/free/ai/), [Google](https://firebase.google.com/products/ml-kit), [Amazon](https://aws-amplify.github.io/docs/js/predictions), or even [IBM Watson](https://www.ibm.com/watson/products-services) (which is relatively easy to configure, btw):
 
--   Translating
--   Converting text to speech
--   Text recognition from image
--   Entities recognition
--   Label real-world objects in real-time
--   Interpretation of text
--   Uploading images for automatic training
--   Transcribing text
--   Faces detection
--   Barcode scanning
--   Landmarks recognition
--   Relevant (smart) replies to messages generation
--   Chatbots
+- Text translation from one language to another.
+- Converting text to speech. (robots are sounding more and more like humans)
+- Converting speech to text. It's not easy to search and analyze audio, but it's much simpler than
+- Text recognition from an image.
+- Entities recognition from images and video, like detection of objects, people, landmarks, barcodes, faces, etc.
+- Interpretation of text, extract metadata from text such as entities, keywords, categories, sentiment, emotion, relations, and syntax.
+- Uploading images for automatic training. You can have several images of these items, and get a model that can look at them and say (predict) what object each image contains.
+- Relevant (smart) replies to messages generation. Smart Reply helps your users respond to messages quickly, and makes it easier to reply to messages on devices with limited input capabilities.
+- Chatbots. Automate customer service.
 
 **Interact and analyze social media** by integrating with their APIs or SDKs. [LinkedIn](https://www.linkedin.com/developers/), [Instagram](https://developers.facebook.com/products/instagram/), [Facebook](https://developers.facebook.com/), [Twitter](https://developer.twitter.com/), [YouTube](https://developers.google.com/youtube) can give you access to their content. Have in mind that social media is very rigorous when it comes to misusing their services. You may need to go through a review process of your application in order to use their web services.
 
