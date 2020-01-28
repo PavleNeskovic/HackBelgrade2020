@@ -53,7 +53,7 @@
 ================================================== */
 body,
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'JetbrainsMono', sans-serif;
   line-height: 26px;
   font-size: 16px;
   color: #888888; }
@@ -65,10 +65,10 @@ h4,
 h5,
 h6 {
   color: #1c1c24;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'JetbrainsMono', sans-serif; }
 
 h1, h2 {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'JetbrainsMono', sans-serif; }
 
 h1 {
   font-size: 36px;
