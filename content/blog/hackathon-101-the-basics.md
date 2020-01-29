@@ -1,6 +1,6 @@
 ---
 title: "Hackathon 101 - The Basics"
-description: ""
+description: "Are you up to the challenge?"
 author: "Slobodan Trajkovic"
 cover: "https://i.imgur.com/b79ynPX.jpg"
 date: "2020-01-29"
