@@ -1,8 +1,8 @@
 ---
 title: "Hackathon 101 - The Basics"
-description: "The basics of hackathons. You are here to have fun!"
+description: ""
 author: "Slobodan Trajkovic"
-cover: "https://i.imgur.com/JtLA0Rr.jpg"
+cover: "https://i.imgur.com/b79ynPX.jpg"
 date: "2020-01-29"
 type: "post"
 ---     
