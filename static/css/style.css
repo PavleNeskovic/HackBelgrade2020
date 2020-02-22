@@ -2386,6 +2386,13 @@ img.pull-right {
 
 /* Sponsors
 ================================================== */
+.logo-center {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-bottom: 20px;
+}
+
 .ts-sponsors .sponsor-padding {
   padding-left: 30px;
   padding-right: 30px; }
